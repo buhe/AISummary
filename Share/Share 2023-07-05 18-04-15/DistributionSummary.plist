@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Share.ipa</key>
+	<array>
+		<dict>
+			<key>architectures</key>
+			<array>
+				<string>arm64</string>
+			</array>
+			<key>buildNumber</key>
+			<string>1</string>
+			<key>certificate</key>
+			<dict>
+				<key>SHA1</key>
+				<string>15020520BE6AC26F88FF49C5DA2516A7BB9B7342</string>
+				<key>dateExpires</key>
+				<string>2023/8/25</string>
+				<key>type</key>
+				<string>Apple Development</string>
+			</dict>
+			<key>embeddedBinaries</key>
+			<array>
+				<dict>
+					<key>architectures</key>
+					<array>
+						<string>arm64</string>
+					</array>
+					<key>buildNumber</key>
+					<string>1</string>
+					<key>certificate</key>
+					<dict>
+						<key>SHA1</key>
+						<string>15020520BE6AC26F88FF49C5DA2516A7BB9B7342</string>
+						<key>dateExpires</key>
+						<string>2023/8/25</string>
+						<key>type</key>
+						<string>Apple Development</string>
+					</dict>
+					<key>entitlements</key>
+					<dict>
+						<key>application-identifier</key>
+						<string>N22PJBS26Y.dev.buhe.Share.ShareExt</string>
+						<key>com.apple.developer.team-identifier</key>
+						<string>N22PJBS26Y</string>
+						<key>com.apple.security.application-groups</key>
+						<array>
+							<string>group.dev.buhe.abc</string>
+						</array>
+						<key>get-task-allow</key>
+						<true/>
+					</dict>
+					<key>name</key>
+					<string>ShareExt.appex</string>
+					<key>profile</key>
+					<dict>
+						<key>UUID</key>
+						<string>50cd8366-a629-4551-bce9-9637e0c0ad7f</string>
+						<key>dateExpires</key>
+						<string>2024/7/2</string>
+						<key>name</key>
+						<string>iOS Team Provisioning Profile: dev.buhe.Share.ShareExt</string>
+					</dict>
+					<key>team</key>
+					<dict>
+						<key>id</key>
+						<string>N22PJBS26Y</string>
+						<key>name</key>
+						<string>yanhua gu</string>
+					</dict>
+					<key>versionNumber</key>
+					<string>1.0</string>
+				</dict>
+			</array>
+			<key>entitlements</key>
+			<dict>
+				<key>application-identifier</key>
+				<string>N22PJBS26Y.dev.buhe.Share</string>
+				<key>com.apple.developer.team-identifier</key>
+				<string>N22PJBS26Y</string>
+				<key>com.apple.security.application-groups</key>
+				<array>
+					<string>group.dev.buhe.abc</string>
+				</array>
+				<key>get-task-allow</key>
+				<true/>
+			</dict>
+			<key>name</key>
+			<string>Share.app</string>
+			<key>profile</key>
+			<dict>
+				<key>UUID</key>
+				<string>80038754-5251-4294-865d-d1516b275bb4</string>
+				<key>dateExpires</key>
+				<string>2024/7/2</string>
+				<key>name</key>
+				<string>iOS Team Provisioning Profile: dev.buhe.Share</string>
+			</dict>
+			<key>team</key>
+			<dict>
+				<key>id</key>
+				<string>N22PJBS26Y</string>
+				<key>name</key>
+				<string>yanhua gu</string>
+			</dict>
+			<key>versionNumber</key>
+			<string>1.0</string>
+		</dict>
+	</array>
+</dict>
+</plist>

@@ -1,0 +1,266 @@
+2023-07-05 10:04:10 +0000  Initial pipeline context: <IDEDistributionProcessingPipelineContext: 0x2ca1bd240; archive(resolved)="<IDEArchive: 0x6000427deee0>", distributionTask(resolved)="2", distributionDestination(resolved)="1", distributionMethod(resolved)="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team(resolved)="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	Chain (15, self inclusive):
+	<IDEDistributionProcessingPipelineContext: 0x2ca1bd240; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionProcessingPipelineContext: 0x126795bf0; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2bbc621d0; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2bbc43e60; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2cc919820; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x126798230; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2bb84daf0; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2bb846b70; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2ca194210; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="<IDEProvisioningDisambiguatableBasicTeam: 0x600005ec2480; teamID='N22PJBS26Y', teamName='yanhua gu', teamType='Individual', username='gubu1986@126.com', isFreeProvisioningTeam='0'>">
+	<IDEDistributionContext: 0x2bb848440; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="(null)">
+	<IDEDistributionContext: 0x445b3a280; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="(null)">
+	<IDEDistributionContext: 0x2f355fc60; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="<IDEDistributionMethodDevelopmentSigned: 0x600020096020>", team="(null)">
+	<IDEDistributionContext: 0x2b6b7df00; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x2d39f9ab0; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="(null)", team="(null)">
+	<IDEDistributionContext: 0x2ca1ac1e0; archive = "<IDEArchive: 0x6000427deee0>", distributionMethod="(null)", team="(null)">
+</IDEDistributionProcessingPipelineContext: 0x2ca1bd240>
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionCreateDestRootStep
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionCopyItemStep
+2023-07-05 10:04:10 +0000  Running /usr/bin/ditto '-V' '/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app' '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app'
+2023-07-05 10:04:10 +0000  >>> Copying /Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app 
+2023-07-05 10:04:10 +0000  copying file ./_CodeSignature/CodeResources ... 
+2023-07-05 10:04:10 +0000  7002 bytes for ./_CodeSignature/CodeResources
+2023-07-05 10:04:10 +0000  copying file ./PlugIns/ShareExt.appex/env.txt ... 
+2023-07-05 10:04:10 +0000  431 bytes for ./PlugIns/ShareExt.appex/env.txt
+2023-07-05 10:04:10 +0000  copying file ./PlugIns/ShareExt.appex/_CodeSignature/CodeResources ... 
+2023-07-05 10:04:10 +0000  3856 bytes for ./PlugIns/ShareExt.appex/_CodeSignature/CodeResources
+2023-07-05 10:04:10 +0000  copying file ./PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/UIViewController-j1y-V4-xli.nib ... 
+2023-07-05 10:04:10 +0000  964 bytes for ./PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/UIViewController-j1y-V4-xli.nib
+2023-07-05 10:04:10 +0000  copying file ./PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/j1y-V4-xli-view-wbc-yd-nQP.nib ... 
+2023-07-05 10:04:10 +0000  1164 bytes for ./PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/j1y-V4-xli-view-wbc-yd-nQP.nib
+2023-07-05 10:04:10 +0000  copying file ./PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/Info.plist ... 
+2023-07-05 10:04:10 +0000  258 bytes for ./PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/Info.plist
+2023-07-05 10:04:10 +0000  copying file ./PlugIns/ShareExt.appex/ShareExt ... 
+2023-07-05 10:04:10 +0000  8445120 bytes for ./PlugIns/ShareExt.appex/ShareExt
+2023-07-05 10:04:10 +0000  copying file ./PlugIns/ShareExt.appex/Share.momd/VersionInfo.plist ... 
+293 bytes for ./PlugIns/ShareExt.appex/Share.momd/VersionInfo.plist
+copying file ./PlugIns/ShareExt.appex/Share.momd/Share.mom ... 
+1803 bytes for ./PlugIns/ShareExt.appex/Share.momd/Share.mom
+copying file ./PlugIns/ShareExt.appex/Share.momd/Share.omo ... 
+2023-07-05 10:04:10 +0000  3368 bytes for ./PlugIns/ShareExt.appex/Share.momd/Share.omo
+2023-07-05 10:04:10 +0000  copying file ./PlugIns/ShareExt.appex/embedded.mobileprovision ... 
+2023-07-05 10:04:10 +0000  12591 bytes for ./PlugIns/ShareExt.appex/embedded.mobileprovision
+2023-07-05 10:04:10 +0000  copying file ./PlugIns/ShareExt.appex/Info.plist ... 
+2023-07-05 10:04:10 +0000  995 bytes for ./PlugIns/ShareExt.appex/Info.plist
+2023-07-05 10:04:10 +0000  copying file ./AppIcon60x60@2x.png ... 
+2023-07-05 10:04:10 +0000  17503 bytes for ./AppIcon60x60@2x.png
+2023-07-05 10:04:10 +0000  copying file ./Assets.car ... 
+2023-07-05 10:04:10 +0000  1221608 bytes for ./Assets.car
+2023-07-05 10:04:10 +0000  copying file ./AppIcon76x76@2x~ipad.png ... 
+2023-07-05 10:04:10 +0000  24504 bytes for ./AppIcon76x76@2x~ipad.png
+2023-07-05 10:04:10 +0000  copying file ./Share.momd/VersionInfo.plist ... 
+2023-07-05 10:04:10 +0000  293 bytes for ./Share.momd/VersionInfo.plist
+2023-07-05 10:04:10 +0000  copying file ./Share.momd/Share.mom ... 
+2023-07-05 10:04:10 +0000  1803 bytes for ./Share.momd/Share.mom
+2023-07-05 10:04:10 +0000  copying file ./Share.momd/Share.omo ... 
+2023-07-05 10:04:10 +0000  3368 bytes for ./Share.momd/Share.omo
+2023-07-05 10:04:10 +0000  copying file ./embedded.mobileprovision ... 
+2023-07-05 10:04:10 +0000  12524 bytes for ./embedded.mobileprovision
+2023-07-05 10:04:10 +0000  copying file ./Info.plist ... 
+2023-07-05 10:04:10 +0000  1468 bytes for ./Info.plist
+2023-07-05 10:04:10 +0000  copying file ./PkgInfo ... 
+2023-07-05 10:04:10 +0000  8 bytes for ./PkgInfo
+2023-07-05 10:04:10 +0000  copying file ./Share ... 
+2023-07-05 10:04:10 +0000  11896768 bytes for ./Share
+2023-07-05 10:04:10 +0000  /usr/bin/ditto exited with 0
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionEmbedProfileStep
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionInfoPlistStep
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionInfoPlistStep because it said so
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionAppThinningPlistStep
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionAppThinningPlistStep because it said so
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionCompileBitcodeStep
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionCompileBitcodeStep because it said so
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionCodeSlimmingStep
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionCopyBCSymbolMapsStep
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionCopyBCSymbolMapsStep because it said so
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionSymbolsStep
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionSymbolsStep because it said so
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionAppThinningStep
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionAppThinningStep because it said so
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionArchThinningStep
+2023-07-05 10:04:10 +0000  Running /Applications/Xcode-beta_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app/PlugIns/ShareExt.appex/ShareExt' '-verify_arch' 'arm64e'
+2023-07-05 10:04:10 +0000  /Applications/Xcode-beta_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-07-05 10:04:10 +0000  Skipping architecture thinning for item "ShareExt" because arch "arm64e" wasn't found
+2023-07-05 10:04:10 +0000  Running /Applications/Xcode-beta_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app/Share' '-verify_arch' 'arm64e'
+2023-07-05 10:04:10 +0000  /Applications/Xcode-beta_2.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/lipo exited with 1
+2023-07-05 10:04:10 +0000  Skipping architecture thinning for item "Share" because arch "arm64e" wasn't found
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionODRStep
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionStripXattrsStep
+2023-07-05 10:04:10 +0000  Skipping stripping extended attributes of item: <IDEDistributionItem: 0x6000426f5140; bundleID='dev.buhe.Share.ShareExt', path='<DVTFilePath:0x60006e973480:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/PlugIns/ShareExt.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000ae5fb160; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60003b741500; name='Apple Development: yanhua gu (LNV34SHS6J)', hash='15020520BE6AC26F88FF49C5DA2516A7BB9B7342', serialNumber='4B1DFB426F5F190172A77EA5AB99F323', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-25 10:43:47 +0000''>', entitlements='{
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share.ShareExt";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}', teamID='N22PJBS26Y', identifier='dev.buhe.Share.ShareExt', executablePath='<DVTFilePath:0x60006ea8a290:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/PlugIns/ShareExt.appex/ShareExt'>', hardenedRuntime='0'>'>
+2023-07-05 10:04:10 +0000  Running /usr/bin/xattr '-crs' '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app'
+2023-07-05 10:04:10 +0000  /usr/bin/xattr exited with 0
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionCodesignStep
+2023-07-05 10:04:10 +0000  Entitlements for <IDEDistributionItem: 0x6000426f5140; bundleID='dev.buhe.Share.ShareExt', path='<DVTFilePath:0x60006e973480:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/PlugIns/ShareExt.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000ae5fb160; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60003b741500; name='Apple Development: yanhua gu (LNV34SHS6J)', hash='15020520BE6AC26F88FF49C5DA2516A7BB9B7342', serialNumber='4B1DFB426F5F190172A77EA5AB99F323', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-25 10:43:47 +0000''>', entitlements='{
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share.ShareExt";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}', teamID='N22PJBS26Y', identifier='dev.buhe.Share.ShareExt', executablePath='<DVTFilePath:0x60006ea8a290:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/PlugIns/ShareExt.appex/ShareExt'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share.ShareExt";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}
+2023-07-05 10:04:10 +0000  Entitlements for <IDEDistributionItem: 0x6000426f5140; bundleID='dev.buhe.Share.ShareExt', path='<DVTFilePath:0x60006e973480:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/PlugIns/ShareExt.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000ae5fb160; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60003f73d140; name='Apple Development: yanhua gu (LNV34SHS6J)', hash='15020520BE6AC26F88FF49C5DA2516A7BB9B7342', serialNumber='4B1DFB426F5F190172A77EA5AB99F323', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-25 10:43:47 +0000''>', entitlements='{
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share.ShareExt";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}', teamID='N22PJBS26Y', identifier='dev.buhe.Share.ShareExt', executablePath='<DVTFilePath:0x60006ea8a290:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/PlugIns/ShareExt.appex/ShareExt'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share.ShareExt";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}
+2023-07-05 10:04:10 +0000  Writing entitlements for <IDEDistributionItem: 0x6000426f5140; bundleID='dev.buhe.Share.ShareExt', path='<DVTFilePath:0x60006e973480:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/PlugIns/ShareExt.appex'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000ae5fb160; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60003f735200; name='Apple Development: yanhua gu (LNV34SHS6J)', hash='15020520BE6AC26F88FF49C5DA2516A7BB9B7342', serialNumber='4B1DFB426F5F190172A77EA5AB99F323', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-25 10:43:47 +0000''>', entitlements='{
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share.ShareExt";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}', teamID='N22PJBS26Y', identifier='dev.buhe.Share.ShareExt', executablePath='<DVTFilePath:0x60006ea8a290:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/PlugIns/ShareExt.appex/ShareExt'>', hardenedRuntime='0'>'> to: /var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/entitlements~~~fsx3VH
+2023-07-05 10:04:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '15020520BE6AC26F88FF49C5DA2516A7BB9B7342' '--entitlements' '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/entitlements~~~fsx3VH' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app/PlugIns/ShareExt.appex'
+2023-07-05 10:04:10 +0000  /var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app/PlugIns/ShareExt.appex: replacing existing signature
+2023-07-05 10:04:10 +0000  /var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app/PlugIns/ShareExt.appex: signed bundle with Mach-O thin (arm64) [dev.buhe.Share.ShareExt]
+2023-07-05 10:04:10 +0000  /usr/bin/codesign exited with 0
+2023-07-05 10:04:10 +0000  Entitlements for <IDEDistributionItem: 0x60006e7b61c0; bundleID='dev.buhe.Share', path='<DVTFilePath:0x60006ea89ff0:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000ba3e4dc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60003f73d2c0; name='Apple Development: yanhua gu (LNV34SHS6J)', hash='15020520BE6AC26F88FF49C5DA2516A7BB9B7342', serialNumber='4B1DFB426F5F190172A77EA5AB99F323', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-25 10:43:47 +0000''>', entitlements='{
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}', teamID='N22PJBS26Y', identifier='dev.buhe.Share', executablePath='<DVTFilePath:0x60006e79be40:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/Share'>', hardenedRuntime='0'>'>: {
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}
+2023-07-05 10:04:10 +0000  Entitlements for <IDEDistributionItem: 0x60006e7b61c0; bundleID='dev.buhe.Share', path='<DVTFilePath:0x60006ea89ff0:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000ba3e4dc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60003f73e580; name='Apple Development: yanhua gu (LNV34SHS6J)', hash='15020520BE6AC26F88FF49C5DA2516A7BB9B7342', serialNumber='4B1DFB426F5F190172A77EA5AB99F323', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-25 10:43:47 +0000''>', entitlements='{
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}', teamID='N22PJBS26Y', identifier='dev.buhe.Share', executablePath='<DVTFilePath:0x60006e79be40:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/Share'>', hardenedRuntime='0'>'> are: {
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}
+2023-07-05 10:04:10 +0000  Writing entitlements for <IDEDistributionItem: 0x60006e7b61c0; bundleID='dev.buhe.Share', path='<DVTFilePath:0x60006ea89ff0:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app'>', codeSigningInfo='<_DVTCodeSigningInformation_Path: 0x6000ba3e4dc0; isSigned='1', isAdHocSigned='0', signingCertificate='<DVTSigningCertificate: 0x60003f7367c0; name='Apple Development: yanhua gu (LNV34SHS6J)', hash='15020520BE6AC26F88FF49C5DA2516A7BB9B7342', serialNumber='4B1DFB426F5F190172A77EA5AB99F323', certificateKinds='(
+    "1.2.840.113635.100.6.1.12",
+    "1.2.840.113635.100.6.1.2"
+), issueDate='2022-08-25 10:43:47 +0000''>', entitlements='{
+    "application-identifier" = "N22PJBS26Y.dev.buhe.Share";
+    "com.apple.developer.team-identifier" = N22PJBS26Y;
+    "com.apple.security.application-groups" =     (
+        "group.dev.buhe.abc"
+    );
+    "get-task-allow" = 1;
+}', teamID='N22PJBS26Y', identifier='dev.buhe.Share', executablePath='<DVTFilePath:0x60006e79be40:'/Users/guyanhua/Library/Developer/Xcode/Archives/2023-07-05/Share 2023-7-5, 18.01.xcarchive/Products/Applications/Share.app/Share'>', hardenedRuntime='0'>'> to: /var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/entitlements~~~nm5lQd
+2023-07-05 10:04:10 +0000  Running /usr/bin/codesign '-vvv' '--force' '--sign' '15020520BE6AC26F88FF49C5DA2516A7BB9B7342' '--entitlements' '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/entitlements~~~nm5lQd' '--generate-entitlement-der' '--preserve-metadata=identifier,flags,runtime' '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app'
+2023-07-05 10:04:10 +0000  /var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app: replacing existing signature
+2023-07-05 10:04:10 +0000  /var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app: signed app bundle with Mach-O thin (arm64) [dev.buhe.Share]
+2023-07-05 10:04:10 +0000  /usr/bin/codesign exited with 0
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionZipODRItemStep
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-07-05 10:04:10 +0000  Skipping step: IDEDistributionZipODRItemStep because it said so
+2023-07-05 10:04:10 +0000  Processing step: IDEDistributionCreateIPAStep
+2023-07-05 10:04:10 +0000  Running /usr/bin/ditto '-V' '-c' '-k' '--norsrc' '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root' '/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Packages/Share.ipa'
+2023-07-05 10:04:10 +0000  >>> Copying /var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root 
+2023-07-05 10:04:10 +0000  copying file ./Payload/Share.app/_CodeSignature/CodeResources ... 
+2023-07-05 10:04:10 +0000  7002 bytes for ./Payload/Share.app/_CodeSignature/CodeResources
+2023-07-05 10:04:10 +0000  copying file ./Payload/Share.app/PlugIns/ShareExt.appex/env.txt ... 
+2023-07-05 10:04:10 +0000  431 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/env.txt
+2023-07-05 10:04:10 +0000  copying file ./Payload/Share.app/PlugIns/ShareExt.appex/_CodeSignature/CodeResources ... 
+2023-07-05 10:04:10 +0000  3856 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/_CodeSignature/CodeResources
+2023-07-05 10:04:10 +0000  copying file ./Payload/Share.app/PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/UIViewController-j1y-V4-xli.nib ... 
+2023-07-05 10:04:10 +0000  964 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/UIViewController-j1y-V4-xli.nib
+2023-07-05 10:04:10 +0000  copying file ./Payload/Share.app/PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/j1y-V4-xli-view-wbc-yd-nQP.nib ... 
+2023-07-05 10:04:10 +0000  1164 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/j1y-V4-xli-view-wbc-yd-nQP.nib
+2023-07-05 10:04:10 +0000  copying file ./Payload/Share.app/PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/Info.plist ... 
+2023-07-05 10:04:10 +0000  258 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/Base.lproj/MainInterface.storyboardc/Info.plist
+2023-07-05 10:04:10 +0000  copying file ./Payload/Share.app/PlugIns/ShareExt.appex/ShareExt ... 
+2023-07-05 10:04:11 +0000  8445120 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/ShareExt
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/PlugIns/ShareExt.appex/Share.momd/VersionInfo.plist ... 
+293 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/Share.momd/VersionInfo.plist
+copying file ./Payload/Share.app/PlugIns/ShareExt.appex/Share.momd/Share.mom ... 
+1803 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/Share.momd/Share.mom
+copying file ./Payload/Share.app/PlugIns/ShareExt.appex/Share.momd/Share.omo ... 
+3368 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/Share.momd/Share.omo
+copying file ./Payload/Share.app/PlugIns/ShareExt.appex/embedded.mobileprovision ... 
+2023-07-05 10:04:11 +0000  12591 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/embedded.mobileprovision
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/PlugIns/ShareExt.appex/Info.plist ... 
+995 bytes for ./Payload/Share.app/PlugIns/ShareExt.appex/Info.plist
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/AppIcon60x60@2x.png ... 
+2023-07-05 10:04:11 +0000  17503 bytes for ./Payload/Share.app/AppIcon60x60@2x.png
+copying file ./Payload/Share.app/Assets.car ... 
+2023-07-05 10:04:11 +0000  1221608 bytes for ./Payload/Share.app/Assets.car
+copying file ./Payload/Share.app/AppIcon76x76@2x~ipad.png ... 
+2023-07-05 10:04:11 +0000  24504 bytes for ./Payload/Share.app/AppIcon76x76@2x~ipad.png
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/Share.momd/VersionInfo.plist ... 
+2023-07-05 10:04:11 +0000  293 bytes for ./Payload/Share.app/Share.momd/VersionInfo.plist
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/Share.momd/Share.mom ... 
+2023-07-05 10:04:11 +0000  1803 bytes for ./Payload/Share.app/Share.momd/Share.mom
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/Share.momd/Share.omo ... 
+2023-07-05 10:04:11 +0000  3368 bytes for ./Payload/Share.app/Share.momd/Share.omo
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/embedded.mobileprovision ... 
+2023-07-05 10:04:11 +0000  12524 bytes for ./Payload/Share.app/embedded.mobileprovision
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/Info.plist ... 
+2023-07-05 10:04:11 +0000  1468 bytes for ./Payload/Share.app/Info.plist
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/PkgInfo ... 
+8 bytes for ./Payload/Share.app/PkgInfo
+2023-07-05 10:04:11 +0000  copying file ./Payload/Share.app/Share ... 
+2023-07-05 10:04:11 +0000  11896768 bytes for ./Payload/Share.app/Share
+2023-07-05 10:04:11 +0000  /usr/bin/ditto exited with 0
+2023-07-05 10:04:11 +0000  Processing step: IDEDistributionAppStoreInformationStep
+2023-07-05 10:04:11 +0000  Skipping step: IDEDistributionAppStoreInformationStep because it said so
+2023-07-05 10:04:11 +0000  Processing step: IDEDistributionGenerateProcessedDistributionItems
+2023-07-05 10:04:11 +0000  IDEDistributionItem init <DVTFilePath:0x60006ea984d0:'/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app/PlugIns/ShareExt.appex'>
+2023-07-05 10:04:11 +0000  IDEDistributionItem init <DVTFilePath:0x60006ea98150:'/var/folders/qc/ln7ty1pd0bl0cz02r1rsc8qw0000gn/T/XcodeDistPipeline.~~~KmJyS6/Root/Payload/Share.app'>
+2023-07-05 10:04:11 +0000  Processing step: IDEDistributionCreateManifestStep

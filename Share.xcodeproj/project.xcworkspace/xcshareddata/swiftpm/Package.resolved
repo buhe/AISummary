@@ -1,0 +1,221 @@
+{
+  "pins" : [
+    {
+      "identity" : "async-http-client",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/swift-server/async-http-client.git",
+      "state" : {
+        "revision" : "78db67e5bf4a8543075787f228e8920097319281",
+        "version" : "1.18.0"
+      }
+    },
+    {
+      "identity" : "functions-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supabase-community/functions-swift",
+      "state" : {
+        "revision" : "c680cdfc53399376bdece299b1387b4fb3da514e",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "get",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/Get",
+      "state" : {
+        "revision" : "12830cc64f31789ae6f4352d2d51d03a25fc3741",
+        "version" : "2.1.6"
+      }
+    },
+    {
+      "identity" : "getextensions",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/binaryscraping/GetExtensions",
+      "state" : {
+        "revision" : "aa20f38721142eb6592b2c8f11179d32d7d70ae3",
+        "version" : "1.0.0"
+      }
+    },
+    {
+      "identity" : "gotrue-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supabase-community/gotrue-swift",
+      "state" : {
+        "revision" : "4bf132d73d322ee5d6d648f02deb9f2bc19cc659",
+        "version" : "1.2.1"
+      }
+    },
+    {
+      "identity" : "keychainaccess",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kishikawakatsumi/KeychainAccess",
+      "state" : {
+        "revision" : "84e546727d66f1adc5439debad16270d0fdd04e7",
+        "version" : "4.2.2"
+      }
+    },
+    {
+      "identity" : "langchain-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/buhe/langchain-swift",
+      "state" : {
+        "revision" : "85e949e3288966542447403c89b16d40ea1c9bf8",
+        "version" : "0.7.0"
+      }
+    },
+    {
+      "identity" : "openai-kit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/dylanshine/openai-kit",
+      "state" : {
+        "revision" : "bf4e81668fe3c561afa29078121f3ff7d99da210",
+        "version" : "1.8.2"
+      }
+    },
+    {
+      "identity" : "postgrest-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supabase-community/postgrest-swift",
+      "state" : {
+        "revision" : "fb91f56ffcfe829c0cba2bfc180b1e669a8dd2e4",
+        "version" : "1.0.1"
+      }
+    },
+    {
+      "identity" : "realtime-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supabase-community/realtime-swift.git",
+      "state" : {
+        "revision" : "0b985c687fe963f6bd818ff77a35c27247b98bb4",
+        "version" : "0.0.2"
+      }
+    },
+    {
+      "identity" : "storage-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supabase-community/storage-swift.git",
+      "state" : {
+        "revision" : "db67ce7764ef80e7941cea6bc4a0104c88e060f8",
+        "version" : "0.1.3"
+      }
+    },
+    {
+      "identity" : "supabase-swift",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/supabase-community/supabase-swift",
+      "state" : {
+        "revision" : "7088b85247c8e56317f0b22b9d60655e8f762fec",
+        "version" : "0.3.0"
+      }
+    },
+    {
+      "identity" : "swift-atomics",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-atomics.git",
+      "state" : {
+        "revision" : "6c89474e62719ddcc1e9614989fff2f68208fe10",
+        "version" : "1.1.0"
+      }
+    },
+    {
+      "identity" : "swift-collections",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-collections.git",
+      "state" : {
+        "revision" : "937e904258d22af6e447a0b72c0bc67583ef64a2",
+        "version" : "1.0.4"
+      }
+    },
+    {
+      "identity" : "swift-log",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-log.git",
+      "state" : {
+        "revision" : "32e8d724467f8fe623624570367e3d50c5638e46",
+        "version" : "1.5.2"
+      }
+    },
+    {
+      "identity" : "swift-nio",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio.git",
+      "state" : {
+        "revision" : "5f542894dd8efbd766d8adf73ef2f947b0cd5e21",
+        "version" : "2.56.0"
+      }
+    },
+    {
+      "identity" : "swift-nio-extras",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio-extras.git",
+      "state" : {
+        "revision" : "0e0d0aab665ff1a0659ce75ac003081f2b1c8997",
+        "version" : "1.19.0"
+      }
+    },
+    {
+      "identity" : "swift-nio-http2",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio-http2.git",
+      "state" : {
+        "revision" : "a8ccf13fa62775277a5d56844878c828bbb3be1a",
+        "version" : "1.27.0"
+      }
+    },
+    {
+      "identity" : "swift-nio-ssl",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio-ssl.git",
+      "state" : {
+        "revision" : "e866a626e105042a6a72a870c88b4c531ba05f83",
+        "version" : "2.24.0"
+      }
+    },
+    {
+      "identity" : "swift-nio-transport-services",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/apple/swift-nio-transport-services.git",
+      "state" : {
+        "revision" : "41f4098903878418537020075a4d8a6e20a0b182",
+        "version" : "1.17.0"
+      }
+    },
+    {
+      "identity" : "swiftuix",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftUIX/SwiftUIX",
+      "state" : {
+        "revision" : "75d5be2c85ec1e3ccbd9d99d321dd3abb5955e8d",
+        "version" : "0.1.6"
+      }
+    },
+    {
+      "identity" : "swiftyjson",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/SwiftyJSON/SwiftyJSON",
+      "state" : {
+        "revision" : "b3dcd7dbd0d488e1a7077cb33b00f2083e382f07",
+        "version" : "5.0.1"
+      }
+    },
+    {
+      "identity" : "swxmlhash",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/drmohundro/SWXMLHash",
+      "state" : {
+        "revision" : "a853604c9e9a83ad9954c7e3d2a565273982471f",
+        "version" : "7.0.2"
+      }
+    },
+    {
+      "identity" : "urlqueryencoder",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/kean/URLQueryEncoder",
+      "state" : {
+        "revision" : "4ce950479707ea109f229d7230ec074a133b15d7",
+        "version" : "0.2.1"
+      }
+    }
+  ],
+  "version" : 2
+}
