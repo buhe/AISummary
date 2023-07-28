@@ -19,6 +19,7 @@ enum Cause {
     case NoSubtitle
     case Expired
     case Success
+    case NotYoutube
 }
 struct VideoInfo {
     let title: String
@@ -78,7 +79,7 @@ class ShareViewController: UIViewController {
                             itemProvider.loadItem(forTypeIdentifier: "public.url", options: nil, completionHandler: { (item, error) in
                                 let url = item as! NSURL
                                 // parse https://www.youtube.com/watch?v=c6SSUhsU0A0
-                                if url.absoluteString!.contains("watch") {
+                                if url.absoluteString!.contains("watch") && url.absoluteString!.contains("youtube") {
                                     if !self.requested {
                                         self.requested = true
                                         Task {
@@ -87,9 +88,8 @@ class ShareViewController: UIViewController {
                                             })
                                         }
                                     }
-                                }
-                                // parse https://youtu.be/r25tAO1HaAI
-                                if url.absoluteString!.contains("youtu.be") {
+                                } else if url.absoluteString!.contains("youtu.be") {
+                                    // parse https://youtu.be/r25tAO1HaAI
                                     if !self.requested {
                                         self.requested = true
                                         Task {
@@ -98,6 +98,9 @@ class ShareViewController: UIViewController {
                                             })
                                         }
                                     }
+                                } else {
+                                    let payload = VideoInfo(title: "", summarize: "", description: "", thumbnail: "", url: "", successed: false, cause: .NotYoutube, id: "")
+                                    NotificationCenter.default.post(name: Notification.Name("Summarize"), object: payload)
                                 }
                             })
                         }
@@ -350,6 +353,8 @@ struct SwiftUIView: View {
                         text = "The video has no subtitles, and the summary fails."
                     case .Expired:
                         text = "You have exceeded the number of trials and are not subscribed."
+                    case .NotYoutube:
+                        text = "Not a YouTube link"
                     default:
                     // not reachered
                         text = ""

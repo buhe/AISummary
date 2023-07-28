@@ -50,7 +50,9 @@ struct Sum: View {
                                 .foregroundColor(.gray)
                         }
                         .frame(width: screenWidth - 22 , height: screenWidth * 2 / 3)
-                        Text(item.summary ?? "summary")
+                        ScrollView {
+                            Text(item.summary ?? "summary")
+                        }
                         Spacer()
                     }
                     .padding()

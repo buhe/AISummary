@@ -63,6 +63,13 @@ Plan auto-renews for $2.99/month until canceled.
                 .padding()
                 Text(text)
                     .padding()
+                    .bold()
+                    .italic()
+//                    .font(.title)
+                Text("EULA: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/")
+                    .padding(.horizontal)
+                Text("Privacy: https://github.com/buhe/AISummary/blob/main/PrivacyPolicy.md")
+                    .padding(.horizontal)
                 HStack{
                     Button{
                         IAPViewModel.shared.loading = true
@@ -73,6 +80,7 @@ Plan auto-renews for $2.99/month until canceled.
                     }
                     .buttonStyle(.borderedProminent)
                     .disabled(iap.products.isEmpty)
+                    .padding(.horizontal)
                     Button{
                         IAPViewModel.shared.loading = true
                         IAPManager.shared.restore()
@@ -89,6 +97,6 @@ Plan auto-renews for $2.99/month until canceled.
 
 struct ProView_Previews: PreviewProvider {
     static var previews: some View {
-        ProView(scheme: false){}
+        ProView(scheme: true){}
     }
 }
