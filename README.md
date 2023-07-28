@@ -1,6 +1,9 @@
 # AI Summary
 SwiftUI app based on [langchain-swift](https://github.com/buhe/langchain-swift).
 
+## Get started
+Edit your https://github.com/buhe/AISummary/blob/main/ShareExt/env.txt
+
 ## Core Code
 ```swift
   let loader = YoutubeLoader(video_id: video_id, language: lang)
